@@ -65,7 +65,6 @@ xn = [encode_tokens(tok) for _in in x for tok in _in]
 
 
 col = dfy.iloc[:,0]
-print("HERE")
 
 y = []
 for seq in col:
